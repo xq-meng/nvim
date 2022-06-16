@@ -1,0 +1,3 @@
+require('telescope.builtin').planets {}
+
+

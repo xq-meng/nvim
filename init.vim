@@ -4,11 +4,14 @@ lua require('basic')
 " plugin management.
 lua require('plugins')
 
+" key mapping
+lua require('keybindings')
+
 " atom one dark theme.
 lua require('onedark').load()
 
-" key mapping
-lua require('keybindings')
+" aleph-nvim greeting page
+lua require('plugin-config/hello-nvim').config()
 
 " nvim tree.
 lua require('plugin-config/nvim-tree')
@@ -21,3 +24,7 @@ lua require('plugin-config/nvim-treesitter')
 
 " vim-terminal-help
 lua require('plugin-config/vim-terminal-help')
+
+" nvim-lspconfig
+lua require('plugin-config/nvim-lspconfig')
+

@@ -3,6 +3,8 @@ return require('packer').startup(function()
     use 'wbthomason/packer.nvim'
     -- Theme
     use 'navarasu/onedark.nvim'
+    -- greeter 
+    use 'xq-meng/hello-nvim'
     -- File tree
     use {
         'kyazdani42/nvim-tree.lua',
@@ -32,5 +34,10 @@ return require('packer').startup(function()
     -- terminal
     use {
         'skywind3000/vim-terminal-help'
+    }
+    -- telescope
+    use {
+        'nvim-telescope/telescope.nvim',
+        requires = 'nvim-lua/plenary.nvim'
     }
 end)
