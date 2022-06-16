@@ -19,3 +19,5 @@ lua require('plugin-config/bufferline')
 " nvim treesitter
 lua require('plugin-config/nvim-treesitter')
 
+" vim-terminal-help
+lua require('plugin-config/vim-terminal-help')
