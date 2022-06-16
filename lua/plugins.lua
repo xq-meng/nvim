@@ -29,4 +29,8 @@ return require('packer').startup(function()
         'jayli/vim-easycomplete',
         'SirVer/ultisnips'
     }
+    -- terminal
+    use {
+        'skywind3000/vim-terminal-help'
+    }
 end)
