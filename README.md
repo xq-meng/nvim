@@ -3,13 +3,21 @@ Neovim configuration.
 
 ## Setup
 
-1. Install packer.
+1. Neovim > 0.7.0
+
+2. Install packer.
 
 ```
 git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
-2. Run PackerSync.
+3. Python3 and pip3 is required.
+
+```
+pip3 install neovim
+```
+
+4. Run PackerSync.
 
 ```
 :PackerSync
