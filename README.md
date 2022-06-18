@@ -3,21 +3,13 @@ Neovim configuration.
 
 ## Setup
 
-1. Neovim > 0.7.0
-
-2. Install packer.
+1. Install packer.
 
 ```
 git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
-3. Python3 and pip3 is required.
-
-```
-pip3 install neovim
-```
-
-4. Run PackerSync.
+2. Run PackerSync.
 
 ```
 :PackerSync
@@ -25,11 +17,19 @@ pip3 install neovim
 
 ## Note
 
-1. Neovim >= 0.7
+1. Neovim version required.
+
+Neovim >= 0.7, see [Neovim](https://neovim.io/) for latest release.
 
 2. Python3, pip3 is required.
 
-3. clangd is required for cpp complete.
+```
+pip3 install neovim
+```
+
+3. Auto complete.
+
+clangd is required for cpp complete.
 
 ```
 # debian / ubuntu
@@ -38,3 +38,9 @@ apt-get install clangd
 # mac os
 brew install llvm
 ```
+
+For other language, run `:InstallLspServer`.
+
+4. Iconic font is required for better display.
+
+Nerd font is recommanded. Please download font from [Nerd Font](https://www.nerdfonts.com/font-downloads) or [GitHub Page](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts) and apply it to your terminal.
