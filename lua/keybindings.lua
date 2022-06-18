@@ -6,7 +6,7 @@ local opt = {
 local map = vim.api.nvim_set_keymap
 
 -- nvim-tree
-map('n', '<C-g>', ':NvimTreeOpen<CR> :NvimTreeRefresh<CR>', opt)
+map('n', '<C-g>', ':NvimTreeToggle<CR> :NvimTreeRefresh<CR>', opt)
 map('n', '<leader><C-g>', ':NvimTreeClose<CR>', opt)
 
 -- buffer line 
