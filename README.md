@@ -9,7 +9,13 @@ Neovim configuration.
 git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
-2. Run PackerSync.
+2. Clone this repo to `~/.config/`.
+
+```
+git clone --depth 1 https://https://github.com/xq-meng/nvim.git ~/.config/
+```
+
+3. Run PackerSync in Neovim.
 
 ```
 :PackerSync
