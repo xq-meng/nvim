@@ -1,25 +1,29 @@
 -- utf-8
 vim.g.encoding = "UTF-8"
 vim.g.fileencoding = "UTF-8"
--- line number 
+-- line number
 vim.wo.number = true
 vim.wo.relativenumber = true
 -- ref line of width
 vim.wo.colorcolumn = "80"
--- tabs 
+-- tabs
 vim.o.tabstop = 4
 vim.o.softtabstop = 4
 vim.o.shiftwidth = 4
 vim.o.shiftround = true
--- expand 
+-- expand
 vim.o.expandtab = true
 vim.o.autoindent = true
 vim.o.smartindent = true
+-- wrap
+vim.o.wrap = false
 -- increasing search
 vim.o.incsearch = true
--- auto load 
+-- search highlight
+vim.o.hlsearch = false
+-- auto load
 vim.o.autoread = true
--- mouse support 
+-- mouse support
 vim.o.mouse = "a"
 -- split window
 vim.o.splitbelow = true

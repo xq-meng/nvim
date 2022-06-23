@@ -3,7 +3,7 @@ return require('packer').startup(function()
     use 'wbthomason/packer.nvim'
     -- Theme
     use 'navarasu/onedark.nvim'
-    -- greeter 
+    -- greeter
     use 'xq-meng/hello-nvim'
     -- File tree
     use {
@@ -23,7 +23,7 @@ return require('packer').startup(function()
     }
     -- lsp
     use {
-        'neovim/nvim-lspconfig', 
+        'neovim/nvim-lspconfig',
         'williamboman/nvim-lsp-installer'
     }
     -- complete
@@ -39,5 +39,9 @@ return require('packer').startup(function()
     use {
         'nvim-telescope/telescope.nvim',
         requires = 'nvim-lua/plenary.nvim'
+    }
+    -- tidy.nvim
+    use {
+        'mcauley-penney/tidy.nvim'
     }
 end)

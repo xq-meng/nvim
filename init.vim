@@ -28,3 +28,5 @@ lua require('plugin-config/vim-terminal-help')
 " nvim-lspconfig
 lua require('plugin-config/nvim-lspconfig')
 
+" tidy.nvim
+lua require('plugin-config/tidy-nvim')

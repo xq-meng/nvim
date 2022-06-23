@@ -67,4 +67,3 @@ Nerd font is recommanded. Please download font from [Nerd Font](https://www.nerd
 | `` ld ``            | list lsp definitions      |
 | `` li ``            | list lsp implentations    |
 | `` lr ``            | list lsp references       |
-

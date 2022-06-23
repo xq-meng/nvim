@@ -3,7 +3,7 @@ require("bufferline").setup {
     options = {
         -- nvim internal lsp
         diagnostics = "nvim_lsp",
-        -- offset for nvim-tree 
+        -- offset for nvim-tree
         offsets = {
             {
                 filetype = "NvimTree",
