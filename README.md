@@ -1,6 +1,8 @@
 # nvim
 Neovim configuration.
 
+![my-neovim](https://images.cnblogs.com/cnblogs_com/xqmeng/2040131/o_220623030633_nvim-greeting.png)
+
 ## Setup
 
 1. Install packer.
