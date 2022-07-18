@@ -8,6 +8,9 @@ local opt = {
 
 local map = vim.api.nvim_set_keymap
 
+-- escape
+map('i', 'jk', '<ESC>', opt)
+
 -- window toggle
 map('n', '<leader>h', '<C-w>h', opt)
 map('n', '<leader>r', '<C-w>j', opt)
