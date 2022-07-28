@@ -20,13 +20,13 @@ For other platform, see [Packer Quickstart](https://github.com/wbthomason/packer
 Unix, Linux platform
 
 ```
-git clone --depth 1 https://https://github.com/xq-meng/nvim.git ~/.config/nvim
+git clone --depth 1 //https://github.com/xq-meng/nvim.git ~/.config/nvim
 ```
 
 Windows Powershell
 
 ```
-git clone --depth 1 https://https://github.com/xq-meng/nvim.git "$env:LOCALAPPDATA\nvim"
+git clone --depth 1 //https://github.com/xq-meng/nvim.git "$env:LOCALAPPDATA\nvim"
 ```
 
 3. Run PackerSync in Neovim.
