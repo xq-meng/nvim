@@ -21,11 +21,6 @@ return require('packer').startup(function()
     use {
         'nvim-treesitter/nvim-treesitter'
     }
-    -- lsp
-    use {
-        'neovim/nvim-lspconfig',
-        'williamboman/nvim-lsp-installer'
-    }
     -- complete
     use {
         'jayli/vim-easycomplete',
