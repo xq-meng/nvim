@@ -27,3 +27,6 @@ lua require('plugin-config/vim-terminal-help')
 
 " tidy.nvim
 lua require('plugin-config/tidy-nvim')
+
+" vim-easycomplete
+lua require('plugin-config/vim-easycomplete')
