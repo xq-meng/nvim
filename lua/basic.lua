@@ -5,7 +5,7 @@ vim.g.fileencoding = "UTF-8"
 vim.wo.number = true
 vim.wo.relativenumber = true
 -- ref line of width
-vim.wo.colorcolumn = "80"
+vim.wo.colorcolumn = "120"
 -- tabs
 vim.o.tabstop = 4
 vim.o.softtabstop = 4
