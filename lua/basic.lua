@@ -1,3 +1,5 @@
+-- python provider
+vim.g.python3_host_prog = "/usr/bin/python3"
 -- utf-8
 vim.g.encoding = "UTF-8"
 vim.g.fileencoding = "UTF-8"
