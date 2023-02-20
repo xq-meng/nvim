@@ -1,31 +1,51 @@
 return require('packer').startup(function()
     -- Packer manage itself.
-    use 'wbthomason/packer.nvim'
+    use {
+        'wbthomason/packer.nvim'
+    }
     -- Theme
-    use 'navarasu/onedark.nvim'
+    use {
+        'navarasu/onedark.nvim'
+    }
     -- greeter
-    use 'xq-meng/hello-nvim'
-    -- File tree
+    use {
+        'xq-meng/hello-nvim'
+    }
+    -- file icon
+    use {
+        'kyazdani42/nvim-web-devicons'
+    }
+    -- File tree, requires 'kyazdani42/nvim-web-devicons' for icon display
     use {
         'kyazdani42/nvim-tree.lua',
-        -- optional, for file icon
-        requires = 'kyazdani42/nvim-web-devicons'
     }
-    -- Buffer line
+    -- Buffer line, requires 'kyazdani42/nvim-web-devicons' for icon display
     use {
         'akinsho/bufferline.nvim',
-        -- optional, for file icon
-        requires = 'kyazdani42/nvim-web-devicons'
     }
     -- tree sitter
     use {
         'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate'
     }
-    -- complete
+    -- lsp installer
     use {
-        'jayli/vim-easycomplete',
-        'SirVer/ultisnips'
+        'williamboman/mason.nvim',
+        'williamboman/mason-lspconfig.nvim'
+    }
+    -- lsp config
+    use {
+        'neovim/nvim-lspconfig'
+    }
+    -- auto complete
+    use {
+        'hrsh7th/nvim-cmp',
+        'hrsh7th/cmp-nvim-lsp',
+        'hrsh7th/cmp-buffer',
+        'hrsh7th/cmp-path',
+        'hrsh7th/cmp-cmdline',
+        'hrsh7th/cmp-vsnip',
+        'hrsh7th/vim-vsnip'
     }
     -- terminal
     use {
@@ -39,5 +59,9 @@ return require('packer').startup(function()
     -- tidy.nvim
     use {
         'mcauley-penney/tidy.nvim'
+    }
+    -- nvim-lastplace
+    use {
+        'ethanholz/nvim-lastplace'
     }
 end)
