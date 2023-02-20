@@ -26,6 +26,4 @@ map('n', '<C-h>', ':BufferLineCyclePrev<CR>', opt)
 map('n', '<C-l>', ':BufferLineCycleNext<CR>', opt)
 
 -- nvim telescope lsp
-map('n', '<leader>ld', ':Telescope lsp_definitions<CR>', opt)
-map('n', '<leader>li', ':Telescope lsp_implementations<CR>', opt)
-map('n', '<leader>lr', ':Telescope lsp_references<CR>', opt)
+map('n', '<leader>tr', ':Telescope lsp_references<CR>', opt)
