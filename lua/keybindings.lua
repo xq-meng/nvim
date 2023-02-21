@@ -27,3 +27,4 @@ map('n', '<C-l>', ':BufferLineCycleNext<CR>', opt)
 
 -- nvim telescope lsp
 map('n', '<leader>tr', ':Telescope lsp_references<CR>', opt)
+map('n', '<leader>tf', ':Telescope find_files<CR>', opt)

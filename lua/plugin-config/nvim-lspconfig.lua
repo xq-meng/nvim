@@ -25,5 +25,14 @@ local on_attach = function(client, bufnr)
 end
 
 require('lspconfig').pylsp.setup({
+    settings = {
+        pylsp = {
+            plugins = {
+                pycodestyle = {
+                    maxLineLength = 1000,
+                }
+            }
+        }
+    },
     on_attach = on_attach
 })
