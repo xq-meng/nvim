@@ -22,8 +22,8 @@ map('n', '<C-g>', ':NvimTreeFocus<CR> :NvimTreeRefresh<CR>', opt)
 map('n', '<leader><C-g>', ':NvimTreeClose<CR>', opt)
 
 -- buffer line
-map('n', '<C-h>', ':BufferLineCyclePrev<CR>', opt)
-map('n', '<C-l>', ':BufferLineCycleNext<CR>', opt)
+map('n', '<leader>bh', ':BufferLineCyclePrev<CR>', opt)
+map('n', '<leader>bl', ':BufferLineCycleNext<CR>', opt)
 
 -- nvim telescope lsp
 map('n', '<leader>tr', ':Telescope lsp_references<CR>', opt)

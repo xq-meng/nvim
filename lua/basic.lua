@@ -34,3 +34,5 @@ vim.o.splitright = true
 vim.g.completeopt = "menu, menuone, noselect, noinsert"
 -- colors
 vim.o.background = "dark"
+-- fold
+vim.o.foldlevelstart = 99
