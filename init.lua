@@ -8,8 +8,7 @@ require('plugins')
 require('keybindings')
 
 -- lsp
-require('lsp')
-require('plugin-config/nvim-lspconfig')
+require('lsp/setup')
 
 -- atom one dark theme.
 require('onedark').load()
@@ -32,11 +31,11 @@ require('plugin-config/vim-terminal-help')
 -- tidy.nvim
 require('plugin-config/tidy-nvim')
 
--- vim-easycomplete
-require('plugin-config/vim-easycomplete')
-
 -- nvim-lastplace
 require('plugin-config/nvim-lastplace')
 
 -- nvim-cmp
 require('plugin-config/nvim-cmp')
+
+-- wrapping.nvim
+require('plugin-config/wrapping-nvim')

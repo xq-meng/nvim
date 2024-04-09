@@ -28,14 +28,11 @@ return require('packer').startup(function()
         'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate'
     }
-    -- lsp installer
+    -- lsp
     use {
         'williamboman/mason.nvim',
-        'williamboman/mason-lspconfig.nvim'
-    }
-    -- lsp config
-    use {
-        'neovim/nvim-lspconfig'
+        'williamboman/mason-lspconfig.nvim',
+        'neovim/nvim-lspconfig',
     }
     -- auto complete
     use {
@@ -63,5 +60,9 @@ return require('packer').startup(function()
     -- nvim-lastplace
     use {
         'ethanholz/nvim-lastplace'
+    }
+    -- wrapping.nvim
+    use {
+        "andrewferrier/wrapping.nvim",
     }
 end)

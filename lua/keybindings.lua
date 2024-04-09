@@ -1,5 +1,5 @@
 -- leader key
-vim.g.mapleader = '`'
+vim.g.mapleader = ' '
 
 local opt = {
     noremap = true,
@@ -28,3 +28,6 @@ map('n', '<leader>bl', ':BufferLineCycleNext<CR>', opt)
 -- nvim telescope lsp
 map('n', '<leader>tr', ':Telescope lsp_references<CR>', opt)
 map('n', '<leader>tf', ':Telescope find_files<CR>', opt)
+
+-- wrapping.nvim
+map('n', '<leader>ws', ':ToggleWrapMode<CR>', opt)

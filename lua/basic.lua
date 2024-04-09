@@ -18,7 +18,7 @@ vim.o.expandtab = true
 vim.o.autoindent = true
 vim.o.smartindent = true
 -- wrap
-vim.o.wrap = false
+vim.o.wrap = true
 -- increasing search
 vim.o.incsearch = true
 -- search highlight
