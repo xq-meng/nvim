@@ -11,8 +11,10 @@ require('mason').setup({
 require('mason-lspconfig').setup({
     -- A list of servers to automatically install if they're not already installed
     ensure_installed = { 'clangd' },
+    ensure_installed = { 'pylsp' },
 })
 
 local servers = {
-    clangd = require('lsp.cpp')
+    clangd = require('lsp.cpp'),
+    pylsp = require('lsp.py')
 }
