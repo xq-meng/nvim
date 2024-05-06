@@ -22,6 +22,7 @@ return require('packer').startup(function()
     -- Buffer line, requires 'kyazdani42/nvim-web-devicons' for icon display
     use {
         'akinsho/bufferline.nvim',
+        'ojroques/nvim-bufdel'
     }
     -- tree sitter
     use {

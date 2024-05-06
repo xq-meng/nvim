@@ -25,11 +25,17 @@ map('n', '<leader>gx', ':NvimTreeClose<CR>', opt)
 map('n', '<leader>bh', ':BufferLineCyclePrev<CR>', opt)
 map('n', '<leader>bl', ':BufferLineCycleNext<CR>', opt)
 map('n', '<leader>bb', ':BufferLineCycleNext<CR>', opt)
-map('n', '<leader>bx', ':BufferLineCloseRight<CR> :BufferLineCloseLeft<CR>', opt)
+map('n', '<leader>bx', ':BufDel<CR>', opt)
 
 -- nvim telescope lsp
-map('n', '<leader>tr', ':Telescope lsp_references<CR>', opt)
-map('n', '<leader>tf', ':Telescope find_files<CR>', opt)
+map('n', '<leader>fr', ':Telescope lsp_references<CR>', opt)
+map('n', '<leader>ff', ':Telescope find_files<CR>', opt)
+map('n', '<leader>fg', ':Telescope git_status<CR>', opt)
 
 -- wrapping.nvim
 map('n', '<leader>ws', ':ToggleWrapMode<CR>', opt)
+
+-- copy and past with system clipboard
+map('n', '<leader>yy', '"+yy', opt)
+map('v', '<leader>yy', '"+y', opt)
+map('n', '<leader>pp', '"+p', opt)
