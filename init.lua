@@ -8,7 +8,8 @@ require('plugins')
 require('keybindings')
 
 -- lsp
-require('lsp/setup')
+require('lsp/cpp')
+require('lsp/python')
 
 -- atom one dark theme.
 require('onedark').load()

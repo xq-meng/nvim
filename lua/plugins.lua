@@ -31,8 +31,6 @@ return require('packer').startup(function()
     }
     -- lsp
     use {
-        'williamboman/mason.nvim',
-        'williamboman/mason-lspconfig.nvim',
         'neovim/nvim-lspconfig',
     }
     -- auto complete
@@ -56,7 +54,7 @@ return require('packer').startup(function()
     }
     -- tidy.nvim
     use {
-        'mcauley-penney/tidy.nvim'
+        'xq-meng/tidy.nvim'
     }
     -- nvim-lastplace
     use {
