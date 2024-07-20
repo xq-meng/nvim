@@ -34,6 +34,9 @@ map('n', '<leader>fd', ':Telescope lsp_definitions<CR>', opt)
 map('n', '<leader>ff', ':Telescope find_files<CR>', opt)
 map('n', '<leader>fg', ':Telescope git_status<CR>', opt)
 
+-- diagnostic
+map('n', '<leader>go', ':lua vim.diagnostic.open_float()<CR>', opt)
+
 -- wrapping.nvim
 map('n', '<leader>ws', ':ToggleWrapMode<CR>', opt)
 
