@@ -17,6 +17,9 @@ map('n', '<leader>r', '<C-w>j', opt)
 map('n', '<leader>k', '<C-w>k', opt)
 map('n', '<leader>l', '<C-w>l', opt)
 
+-- window split
+map('n', '<leader>]', ':vsplit<CR>', opt)
+
 -- nvim-tree
 map('n', '<leader>gg', ':NvimTreeFocus<CR> :NvimTreeRefresh<CR>', opt)
 map('n', '<leader>gx', ':NvimTreeClose<CR>', opt)
