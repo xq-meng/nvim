@@ -5,17 +5,7 @@ Neovim configuration.
 
 ## Setup
 
-1. Install packer.
-
-Unix, Linux platform
-
-```
-git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
-```
-
-For other platform, see [Packer Quickstart](https://github.com/wbthomason/packer.nvim/#quickstart)
-
-2. Clone this repo as neovim config.
+1. Clone this repo as neovim config.
 
 Unix, Linux platform
 
@@ -29,10 +19,10 @@ Windows Powershell
 git clone --depth 1 https://github.com/xq-meng/nvim.git "$env:LOCALAPPDATA\nvim"
 ```
 
-3. Run PackerSync in Neovim.
+2. Run Lazy in Neovim.
 
 ```
-:PackerSync
+:Lazy
 ```
 
 ## Note
@@ -50,8 +40,6 @@ pip3 install neovim
 3. Auto complete.
 
 Clangd is required for c/cpp complete. For clangd's installation, see [Installing clangd](https://clangd.llvm.org/installation).
-
-For other language, run ``:InstallLspServer`` while opening corresponding file.
 
 4. Iconic font is required for better display.
 
