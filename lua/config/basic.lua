@@ -30,6 +30,8 @@ vim.o.mouse = "a"
 -- split window
 vim.o.splitbelow = true
 vim.o.splitright = true
+-- vim terminal 
+vim.g.terminal_key = '<C-t>'
 -- auto compelete
 vim.g.completeopt = "menu, menuone, noselect, noinsert"
 -- colors
