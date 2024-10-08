@@ -11,9 +11,8 @@ return {
         highlight = { enable = true },
         indent = { enable = true },
         ensure_installed = {
-        "c",
-        "cpp",
-        "python",
+            "cpp",
+            "python",
         },
     },
     config = function(_, opts)
