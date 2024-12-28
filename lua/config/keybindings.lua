@@ -12,6 +12,9 @@ local map = vim.api.nvim_set_keymap
 -- escape
 map('i', 'jk', '<ESC>', opt)
 
+-- popup menu
+map('n', '<C-f>', ':lua require(\'neopop\').show_menu()<CR>', opt)
+
 -- window toggle
 map('n', '<leader>h', '<C-w>h', opt)
 map('n', '<leader>r', '<C-w>j', opt)
