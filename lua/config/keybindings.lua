@@ -15,6 +15,10 @@ map('i', 'jk', '<ESC>', opt)
 -- popup menu
 map('n', '<C-f>', ':lua require(\'neopop\').show_menu()<CR>', opt)
 
+-- terminal
+map('n', '<C-`>', ':lua require(\'FTerm\').toggle()<CR>', opt)
+map('t', '<C-`>', '<C-\\><C-n>:lua require(\'FTerm\').toggle()<CR>', opt)
+
 -- window toggle
 map('n', '<leader>h', '<C-w>h', opt)
 map('n', '<leader>r', '<C-w>j', opt)
