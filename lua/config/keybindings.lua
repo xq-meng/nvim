@@ -27,6 +27,7 @@ map('n', '<leader>l', '<C-w>l', opt)
 
 -- window split
 map('n', '<leader>]', ':vsplit<CR>', opt)
+map('n', '<leader>[', ':split<CR>', opt)
 
 -- nvim-tree
 map('n', '<leader>gg', ':NvimTreeFocus<CR> :NvimTreeRefresh<CR>', opt)
@@ -43,6 +44,7 @@ map('n', '<leader>fr', ':Telescope lsp_references<CR>', opt)
 map('n', '<leader>fi', ':Telescope lsp_implementations<CR>', opt)
 map('n', '<leader>fd', ':Telescope lsp_definitions<CR>', opt)
 map('n', '<leader>ff', ':Telescope find_files<CR>', opt)
+map('n', '<leader>fn', ':lua require(\'telescope.builtin\').lsp_document_symbols({ symbols = {"function", "class"}})<CR>', opt)
 map('n', '<leader>fg', ':Telescope git_status<CR>', opt)
 
 -- diagnostic
