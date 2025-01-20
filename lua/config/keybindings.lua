@@ -32,6 +32,7 @@ map('n', '<leader>[', ':split<CR>', opt)
 -- nvim-tree
 map('n', '<leader>gg', ':NvimTreeFocus<CR> :NvimTreeRefresh<CR>', opt)
 map('n', '<leader>gx', ':NvimTreeClose<CR>', opt)
+map('n', '<leader>gf', ':AerialToggle<CR>', opt)
 
 -- buffer line
 map('n', '<leader>bh', ':BufferLineCyclePrev<CR>', opt)
