@@ -35,9 +35,8 @@ map('n', '<leader>gx', ':NvimTreeClose<CR>', opt)
 map('n', '<leader>gf', ':AerialToggle<CR>', opt)
 
 -- buffer line
-map('n', '<leader>bh', ':BufferLineCyclePrev<CR>', opt)
-map('n', '<leader>bl', ':BufferLineCycleNext<CR>', opt)
-map('n', '<leader>bb', ':BufferLineCycleNext<CR>', opt)
+map('n', '<leader>-', ':BufferLineCyclePrev<CR>', opt)
+map('n', '<leader>=', ':BufferLineCycleNext<CR>', opt)
 map('n', '<leader>bx', ':BufDel<CR>', opt)
 
 -- nvim telescope lsp
