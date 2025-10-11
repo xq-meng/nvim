@@ -21,7 +21,7 @@ map('t', '<C-t>', '<C-\\><C-n>:lua require(\'FTerm\').toggle()<CR>', opt)
 
 -- window toggle
 map('n', '<leader>h', '<C-w>h', opt)
-map('n', '<leader>r', '<C-w>j', opt)
+map('n', '<leader>j', '<C-w>j', opt)
 map('n', '<leader>k', '<C-w>k', opt)
 map('n', '<leader>l', '<C-w>l', opt)
 
