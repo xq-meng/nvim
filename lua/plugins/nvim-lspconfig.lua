@@ -1,8 +1,8 @@
 return {
     "neovim/nvim-lspconfig",
     config = function()
-        require('lspconfig').clangd.setup{}
-        require('lspconfig').pylsp.setup{
+        vim.lsp.config('clangd', {})
+        vim.lsp.config('pylsp', {
             settings = {
                 pylsp = {
                     plugins = {
@@ -12,6 +12,6 @@ return {
                     }
                 }
             }
-        }
+        })
     end
 }
