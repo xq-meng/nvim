@@ -29,6 +29,12 @@ map('n', '<leader>l', '<C-w>l', opt)
 map('n', '<leader>]', ':vsplit<CR>', opt)
 map('n', '<leader>[', ':split<CR>', opt)
 
+-- window size
+map('n', '<leader>H', ':lua require(\'functions\').resize_window.resize(0, 5, \'left\')<CR>', opt)
+map('n', '<leader>J', ':lua require(\'functions\').resize_window.resize(0, 5, \'down\')<CR>', opt)
+map('n', '<leader>K', ':lua require(\'functions\').resize_window.resize(0, 5, \'up\')<CR>', opt)
+map('n', '<leader>L', ':lua require(\'functions\').resize_window.resize(0, 5, \'right\')<CR>', opt)
+
 -- nvim-tree
 map('n', '<leader>gg', ':NvimTreeFocus<CR> :NvimTreeRefresh<CR>', opt)
 map('n', '<leader>gx', ':NvimTreeClose<CR>', opt)
