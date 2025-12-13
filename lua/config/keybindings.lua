@@ -46,9 +46,7 @@ map('n', '<leader>=', ':BufferLineCycleNext<CR>', opt)
 map('n', '<leader>bx', ':BufDel<CR>', opt)
 
 -- nvim telescope lsp
-map('n', '<leader>fr', ':Telescope lsp_references<CR>', opt)
-map('n', '<leader>fi', ':Telescope lsp_implementations<CR>', opt)
-map('n', '<leader>fd', ':Telescope lsp_definitions<CR>', opt)
+map('n', '<leader>fd', ':lua require(\'telescope.builtin\').diagnostics({ bufnr = 0 })<CR>', opt)
 map('n', '<leader>ff', ':Telescope find_files<CR>', opt)
 map('n', '<leader>fn', ':lua require(\'telescope.builtin\').lsp_document_symbols({ symbols = {"function", "class"}})<CR>', opt)
 map('n', '<leader>fg', ':Telescope git_status<CR>', opt)
