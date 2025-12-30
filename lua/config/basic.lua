@@ -6,6 +6,8 @@ vim.g.fileencoding = "UTF-8"
 -- line number
 vim.wo.number = true
 vim.wo.relativenumber = true
+-- clipboard
+vim.o.clipboard = "unnamedplus"
 -- tabs
 vim.o.tabstop = 4
 vim.o.softtabstop = 4

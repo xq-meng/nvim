@@ -57,7 +57,3 @@ map('n', '<leader>go', ':lua vim.diagnostic.open_float()<CR>', opt)
 -- wrapping.nvim
 map('n', '<leader>ws', ':ToggleWrapMode<CR>', opt)
 
--- copy and past with system clipboard
-map('n', '<leader>yy', '"+yy', opt)
-map('v', '<leader>yy', '"+y', opt)
-map('n', '<leader>pp', '"+p', opt)
