@@ -20,6 +20,8 @@ require("lazy").setup({
   spec = {
     { import = "plugins" },
   },
+  -- Install plugins into the config repo
+  root = vim.fn.stdpath("config") .. "/lazy",
   git = {
     url_format = "git@github.com:%s.git",
   },

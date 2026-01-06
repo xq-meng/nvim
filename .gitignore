@@ -1,1 +1,6 @@
+# lazy plugins
 lazy-lock.json
+lazy/
+
+# agent
+AGENTS.md
